@@ -2,9 +2,9 @@
 functions to connect to the PI server and fetch the current tag value
 
 """
-import sys  
+import sys
+import clr   
 sys.path.append('C:\\Program Files (x86)\\PIPC\\AF\\PublicAssemblies\\4.0\\')  
-import clr  
 clr.AddReference('OSIsoft.AFSDK')
 
 from OSIsoft.AF.PI import *  
