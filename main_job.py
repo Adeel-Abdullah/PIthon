@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 tags=[]
 with open("tags.txt") as tags_file: #fetch tags from the tags file
     for tag in tags_file.readlines():
