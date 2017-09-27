@@ -61,6 +61,3 @@ for tag in tags:
         #os.system('piconfig < '+str(os.path.join(os.getcwd(),tag,filename))+".txt")
         #print("tag_"+interval_start.strftime("%d-%b-%y")+"_"+interval_end.strftime("%d-%b-%y"))
         current_date=interval_end
-    
-
-    
